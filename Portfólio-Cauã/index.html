@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/CM.png" type="icon">
+    <link rel="stylesheet" href="responsividade.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Portfólio - Cauã Marques</title>
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Início</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p>Sobre Mim</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-images"></i>
+                    <p>Projetos</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-comments"></i>
+                    <p>Contato</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Olá! Eu sou <span class="stylized-name">Cauã Marques</span>,</h1>
+                        <h2>Um <span class="proffesions">Desenvolvedor Front-End</span></h2>
+                        <p class="heroline">Sou um jovem dinâmico e comunicativo com grande interesse na área. 
+                            Tenho experiência prática em projetos acadêmicos com HTML, CSS, JavaScript e React.
+                            Gostaria de obter mais conhecimento, estou determinado em contribuir e crescer profissionalmente na área.</p>
+                        <div class="buttonGroup"><a href="pdf/CURRÍCULO CAUÂ 2024 .pdf" target="_blank"><button>Curriculo</button></a></div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="img/Imagem do WhatsApp de 2024-05-30 à(s) 17.40.09_9ea186c1.jpg" alt="Eu">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Role para o próximo slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                    <h1 class="heading">Sobre Mim</h1>
+                    <h3 class="sub-heading">Eu sou Cauã Marques, <span class="proffesions">um Desenvolvedor Front-End</span></h3>
+                    <p class="aboutme-deatils">
+                        Tenho 21 anos, sou da cidade de Jaboticabal-SP e atualmente moro em Matão-SP. 
+Desde jovem venho trabalhando em diversas áreas para conquistar meu instrumento de estudo e poder cursar a área que gosto, sou apaixonado por tecnologia, jogos e programação. 
+Atualmente estou cursando o 3° semestre do curso Análise e Desenvolvimento de Sistemas que tem duração de 4 semestres, além dos cursos extras que tenho feito para complementar minha formação. 
+Durante meus estudos, desenvolvi grande interesse e habilidade na área de Desenvolvimento Front-End, onde aprendi a manipular e trabalhar com HTML, CSS, JavaScript e React.
+Estou buscando uma oportunidade para expandir meus conhecimentos e adquirir mais experiência profissional.
+Estou motivado em contribuir com o desenvolvimento da empresa e, ao mesmo tempo, crescer continuamente na área.
+                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            <li><span>País:</span> Brasil</li>
+                            <li><span>Idade:</span> 21</li>
+                            <li><span>Linguagens Usadas:</span> HTML CSS JavaScript React Vite TailwindCSS</li>
+                            <li><span>Formação:</span> Cursando Análise e Desenvolvimento de Sistemas <br> 3/4 </li>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:70%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>React</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:30%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>TailwindCSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:40%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Projetos</h1>
+                    <div class="project">
+                        <img src="img/mobili.png" alt="Criação de um site">
+                        <div class="project-hover">
+                            <h3 class="title-hover">Projeto Mobili</h3>
+                            <p>Projeto criado para uma empresa de criação de sistemas, utilizando HTML, CSS, JavaScript e Bootstrap para criar interfaces agradáveis e melhorar a experiência do usuário em um site amigável e responsivo. </p>
+                            <div class="links">
+                                <a href="https://mobili.netlify.app/" target="_blank"><h4 class="deploy">Deploy</h4></a>
+                                <a href="https://github.com/Claytinhooo/ProjetoMobili" target="_blank"><h4 class="repo">Repositório</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <div class="project">
+                            <img src="img/Projeto Carros.png" alt="Criação de um site relacionado a carros">
+                            <div class="project-hover">
+                                <h3 class="title-hover">Projeto FP Sellection</h3>
+                                <p>Projeto criado para exibir informações sobre veículos com um efeito animado para mostrá-los. Utilizou-se HTML, CSS e JavaScript. Com CSS, foram utilizadas transformações para alterar o ângulo das imagens, enquanto o JavaScript foi empregado para animar a transição entre esses ângulos ao clicar para trocar a imagem.</p>
+                                <div class="links">
+                                    <a href="https://projeto-dev.netlify.app/" target="_blank"><h4 class="deploy">Deploy</h4></a>
+                                    <a href="https://github.com/Claytinhooo/ProjetoDev" target="_blank"><h4 class="repo">Repositório</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="project">
+                            <img src="img/Tela Login.png" alt="Criação tela de login">
+                            <div class="project-hover">
+                                <h3 class="title-hover">Projeto Tela Login</h3>
+                                <p>Projeto criado para uma tela de login bastante colorida, utilizando uma imagem como background. Foram utilizadas as seguintes ferramentas: HTML para os campos de input do projeto e CSS para estilizar o projeto, tornando-o mais agradável e interativo.</p>
+                                <div class="links">
+                                    <a href="https://teladelogintransparente.netlify.app/" target="_blank"><h4 class="deploy">Deploy</h4></a>
+                                    <a href="https://github.com/Claytinhooo/Projeto-Tela-Login" target="_blank"><h4 class="repo">Repositório</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="project">
+                            <img src="img/Soma de números.png" alt="Soma de números simples">
+                            <div class="project-hover">
+                                <h3 class="title-hover">Projeto Soma Números</h3>
+                                <p>Projeto criado para realizar a soma de números. Utilizei HTML para criar os campos de input, CSS para aplicar um background-image e um efeito de transparência no color para um visual transparente. Em JavaScript, foi utilizada a function `somar` para realizar a adição entre dois valores.</p>
+                                <div class="links">
+                                    <a href="https://soma-simples.netlify.app/" target="_blank"><h4 class="deploy">Deploy</h4></a>
+                                    <a href="https://github.com/Claytinhooo/Projeto-Calculadora-Simples" target="_blank"><h4 class="repo">Repositório</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="project">
+                            <img src="img/site android.png" alt="Site android">
+                            <div class="project-hover">
+                                <h3 class="title-hover">Projeto Site Android</h3>
+                                <p>Projeto criado sobre a história do mascote Android, abordando a primeira versão, um novo mascote, a criadora do Bugdroid e um vídeo falando sobre. Foi utilizado HTML para o conteúdo principal e CSS para uma estilização agradável e responsiva.</p>
+                                <div class="links">
+                                    <a href="https://bugdroidweb.netlify.app/" target="_blank"><h4 class="deploy">Deploy</h4></a>
+                                    <a href="https://github.com/Claytinhooo/ProjetoAndroid" target="_blank"><h4 class="repo">Repositório</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="project">
+                            <img src="img/projeto analise de números.png" alt="analise de números">
+                            <div class="project-hover">
+                                <h3 class="title-hover">Projeto Analisador de Números</h3>
+                                <p>Projeto criado para identificação dos números menores, maiores, a média de todos e a soma de todos. Utilizei HTML para criar caixas de input, CSS para estilizar o site de forma agradável, e JavaScript para implementar functions que calculam e exibem os resultados.</p>
+                                <div class="links">
+                                    <a href="https://analisadornumeros.netlify.app/" target="_blank"><h4 class="deploy">Deploy</h4></a>
+                                    <a href="https://github.com/Claytinhooo/Projeto-Analisador-de-Numeros" target="_blank"><h4 class="repo">Repositório</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contato</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone" ></i>
+                        <h3>Telefone</h3>
+                        <p>(16) 9 9719-1308
+                        </div>
+                        <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                            <h3>Localização</h3>
+                            <p>Matão-SP</p>
+                        </div>
+                        <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                            <h3>E-mail</h3>
+                            <p>cauaclaytonmarquespsn@gmail.com</p>
+                        </div>
+                        <div class="contactinfo"><i class="fa-brands fa-github"></i>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/Claytinhooo" target="_blank"
+                                <p> https://github.com/Claytinhooo </p>
+                            </a>
+                        </div>
+                        <form action="https://formspree.io/f/xzzpzjqp"
+                        method="POST" target="_blank">
+                            <h2>Me mande uma mensagem <div class="SocialLinks">
+                                <a href="https://www.instagram.com/_claytinhoo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/cau%C3%A3-marques-4b73b5242/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </h2>
+                            <input type="text" placeholder="Nome">
+                            <input type="email" placeholder="E-mail">
+                            <textarea rows="10" placeholder="Digite sua mensagem aqui..." name="message"></textarea>
+                            <button class="primary" type="submit">Enviar</button>
+                        </form>
+                        <footer>
+                            <li>Copyright © 2024 Cauã Marques.</li>
+                        </footer>
+                    </div>
+                </div>
+        </main>
+    
+    </body>
+    </html>

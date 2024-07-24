@@ -1,0 +1,33 @@
+@media screen and (width < 979px){
+    .aboutme-deatils{
+        padding: 15px !important;
+    }
+
+    .contactinfo {
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        position: relative;
+        bottom: 50%;
+        transform:translateX(-50%);
+    }
+
+    .skill-bar {
+        display: none;
+    }
+
+    .about-me-table {
+        width: 150%;
+    }
+    
+    .HomeContent {
+        overflow: visible;
+    }
+}
+
+@media screen and (width < 800px){
+    .aboutme-deatils{
+        padding: 10px !important;
+    }
+}
+
